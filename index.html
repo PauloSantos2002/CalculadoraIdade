@@ -27,16 +27,19 @@
         <input type="number" name="year" id="year" placeholder="YYYY"></input>
       </section>
     </section>
-
-    <img src="assets/images/icon-arrow.svg" alt="arrow icon" class="arrow_img">
-    <section class="output">
-      
-        <p><span id="year_output">--</span> years</p>
-        <p><span id="month">--</span> months</p>
-        <p><span id="day_output">--</span> days</p>
-      
+    <!-- ------------------------------------------ -->
+    <section class="buton_arrow">
+      <div class="line_buton"></div>
+      <img src="assets/images/icon-arrow.svg" alt="arrow icon" id="arrow_img" onclick="calcular()">
+      <div class="line_buton mobile"></div>
     </section>
-  </main>
+    <!-- ------------------------------------------ -->
+    <section class="output">
+      <p><span id="year_output">--</span> years</p>
+      <p><span id="month_output">--</span> months</p>
+      <p><span id="day_output">--</span> days</p>
+
+    </section>
 <script src="script.js"></script>
 </body>
 </html>
