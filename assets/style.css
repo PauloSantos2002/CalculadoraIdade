@@ -71,21 +71,20 @@ main{
 }
 @media (max-width: 600px) {
     .mobile{
-    display: block;
-}
-.input{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    margin-bottom: 20px;
-
-}
-#arrow_img{
-    padding: 15px;
-}
-.output{
-    font-size: 3rem;
-    font-weight: 800;
-    font-style: italic;
-}
+        display: block;
+    }
+    .input{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    #arrow_img{
+        padding: 15px;
+    }
+    .output{
+        font-size: 3rem;
+        font-weight: 800;
+        font-style: italic;
+    }
 }
