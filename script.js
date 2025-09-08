@@ -18,6 +18,9 @@ function calcular() {
     }else if(inputMonth === 2,4,6,9,11 && inputDay > 30){
         console.log('Data inválida')
         stop
+    }else if(inputMonth === 2 && inputDay > 29){
+        console.log('Data inválida')
+        stop
     }else{
         document.getElementById('day_output').innerHTML =  dataOutput.getDate()
         document.getElementById('month_output').innerHTML =   dataOutput.getMonth()
