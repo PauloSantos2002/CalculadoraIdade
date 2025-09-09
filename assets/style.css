@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100dvh;
-    background-color: hsl(0, 0%, 86%);
+    background-color: hsl(0, 1%, 65%);
 }
 main{
     max-width: 900px;
@@ -62,7 +62,7 @@ main{
     display: none;
 }
 .output{
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 800;
     font-style: italic;
 }
@@ -70,20 +70,23 @@ main{
     color: hsl(259, 100%, 65%);
 }
 @media (max-width: 600px) {
+    main{
+        padding: 30px;
+    }
     .mobile{
         display: block;
     }
     .input{
         display: flex;
         justify-content: space-between;
-        gap: 10px;
+        gap: 5px;
         margin-bottom: 20px;
     }
     #arrow_img{
         padding: 15px;
     }
     .output{
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 800;
         font-style: italic;
     }
